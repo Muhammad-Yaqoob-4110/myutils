@@ -4,7 +4,7 @@ React-based text utility that allows to manipulate text in real time. It include
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/text-manipulation-app.git
+git clone https://github.com/Muhammad-Yaqoob-4110/text-manipulation-app.git
 ```
 
 ```
