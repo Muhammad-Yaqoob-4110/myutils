@@ -84,11 +84,6 @@ export default function TextForm2(props) {
         props.setAlert('Text copied to clipboard');
 
     }
-    function save() {
-        <form method="get" action="file.txt">
-        {/* <button type="submit">Download!</button> */}
-     </form>
-    }
     function ClearText(){
         setText('');
         props.setAlert('Text is cleared');
@@ -102,10 +97,6 @@ export default function TextForm2(props) {
     // Declare a new state variable, which we'll call "count"
     return (
         <div className="container">
-            <div class="mb-3">
-                <h1>{props.heading}</h1>
-
-            </div>
             <div className = 'text-center'>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label" ></label>
